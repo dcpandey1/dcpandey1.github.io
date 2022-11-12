@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>z-index</title>
+    <style>
+       .z {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    top: 40px;
+    left: 40px;
+  }
+
+  .red {
+    background: red;
+  }
+
+  .green {
+    background: green;
+  }
+
+  .blue {
+    background: blue;
+  }
+
+  #example2 {
+    margin-top: 30px;
+  }
+    </style>
+</head>
+<body>
+    <div id="example1">
+        <div class="z red">
+          <div class="z green" style="z-index: 1"></div>
+        </div>
+        <div class="z blue"></div>
+      </div>
+      
+      <div id="example2">
+        <div class="z red" style="z-index: 0">
+          <div class="z green" style="z-index: 1"></div>
+        </div>
+        <div class="z blue"></div>
+      </div>
+    
+</body>
+</html>
