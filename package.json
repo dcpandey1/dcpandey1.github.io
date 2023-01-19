@@ -2,7 +2,7 @@
   "name": "ecommerce-webapp",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://dcpandey1.github.io/ecommerce",
+  "homepage": "https://dcpandey1.github.io",
   "dependencies": {
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
