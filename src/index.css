@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway+Dots&family=Raleway:ital,wght@0,200;0,400;1,600&display=swap");
 
 :root {
-  --blue: #007fff;
+  --blue: #181c20;
 }
 
 html,
@@ -239,7 +239,7 @@ img {
 }
 
 .wrapper {
-  background-color: #007fff;
+  background-color: #181c20;
   color: #fff;
   text-align: center;
 }
@@ -353,7 +353,7 @@ input[type="text"] {
   height: 36px;
   transform: translate(-50%, -50%);
   border: 6px solid #fff;
-  border-top: 6px solid #007fff;
+  border-top: 6px solid #1a1c1d;
   border-radius: 50%;
   animation: spin 1s linear infinite;
   -webkit-transform: translate(-50%, -50%);
@@ -412,7 +412,7 @@ img {
 }
 
 .titleLink {
-  color: #4a4a4a;
+  color: #181c20;
   text-decoration: none;
   transition: all 0.3s ease;
   -webkit-transition: all 0.3s ease;
@@ -422,7 +422,7 @@ img {
 }
 
 .titleLink:hover {
-  color: #007fff;
+  color: #181c20;
   text-decoration: underline;
 }
 
@@ -431,7 +431,7 @@ img {
 }
 
 .price {
-  color: #007fff;
+  color: #181c20;
   font-weight: 600;
 }
 
@@ -439,7 +439,7 @@ img {
   width: 40px;
   height: 40px;
   padding: 5px;
-  background: #007fff;
+  background: #181c20;
   color: #fff;
   border: none;
   font-size: 2rem;
